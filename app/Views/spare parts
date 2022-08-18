@@ -1,0 +1,346 @@
+
+	  <ul class="flex items-center space-x-6">
+		<li class="font-semibold text-gray-700"><a href="{{url('admin.index.list')}}">Blog</a></li>
+		<li class="font-semibold text-gray-700"><a href="{{url('admin.index.articles')}}">Articles</a></li>
+        <li class="font-semibold text-gray-700"><a href="{{url('system.system.body')}}">Contacts</a></li>
+
+
+		<label
+                for="password"
+                class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600"
+                >Password:</label
+              >
+              <div class="relative">
+                <div
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    absolute
+                    left-0
+                    top-0
+                    h-full
+                    w-10
+                    text-gray-400
+                  "
+                >
+                  <span>
+                    <i class="fas fa-lock text-blue-500"></i>
+                  </span>
+                </div>
+
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  class="
+                    text-sm
+                    placeholder-gray-500
+                    pl-10
+                    pr-4
+                    rounded-2xl
+                    border border-gray-400
+                    w-full
+                    py-2
+                    focus:outline-none focus:border-blue-400
+                  "
+                  placeholder="Enter your password"
+                />
+              </div>
+
+		<!-- @section('-components.navbar1') -->
+			<!-- @section('-components.footer1') -->
+
+
+
+      antialiased bg-gradient-to-br from-green-100 to-white
+
+      <!-- component -->
+<!-- This is an example component -->
+<div class="max-w-full mx-auto bg-white p-24">
+
+	<form>
+    <div class="grid gap-6 mb-6 lg:grid-cols-2">
+        <div>
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First name</label>
+            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required>
+        </div>
+        <div>
+            <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Last name</label>
+            <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Doe" required>
+        </div>
+        <div>
+            <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Company</label>
+            <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Flowbite" required>
+        </div>  
+        <div>
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Phone number</label>
+            <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+        </div>
+        <div>
+            <label for="website" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Website URL</label>
+            <input type="url" id="website" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="flowbite.com" required>
+        </div>
+        <div>
+            <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Unique visitors (per month)</label>
+            <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
+        </div>
+    </div>
+    <div class="mb-6">
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required>
+    </div> 
+    <div class="mb-6">
+        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Password</label>
+        <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="•••••••••" required>
+    </div> 
+    <div class="mb-6">
+        <label for="confirm_password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Confirm password</label>
+        <input type="password" id="confirm_password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="•••••••••" required>
+    </div> 
+    <div class="flex items-start mb-6">
+        <div class="flex items-center h-5">
+        <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+        </div>
+        <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400">I agree with the <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a>.</label>
+    </div>
+    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+</form>
+
+	<p class="mt-5">These input field components is part of a larger, open-source library of Tailwind CSS components. Learn
+		more by going to the official <a class="text-blue-600 hover:underline"
+			href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite
+			Documentation</a>.
+	</p>
+</div>
+
+
+pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" for telephone number input field
+
+
+<div class="mx-6 antialiased bg-gradient-to-br from-green-100 to-white">
+	<!-- <h1 class="my-6 text-3xl">Contacts</h1> -->
+	<div class="md:flex  space-y-3 md:space-y-0 md:space-x-4 mt-6">
+		<div class="h-90 bg-gradient-to-r rounded-md from-indigo-600 to-purple-600 p-10">
+			<p class="text-3xl font-thin text-indigo-50 cursor-pointer">Senior Programmer at Wigal</p>
+			<div class="flex items-center mt-4 space-x-4">
+				<img class="w-10 h-10 rounded-full cursor-pointer" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+				<div>
+					<h3 class="text-indigo-50 font-semibold cursor-pointer">Mavis Nyamesah</h3>
+					<p class="text-indigo-50 text-sm font-thin">0245811720 • Airpot jucntion</p>
+				</div>
+			</div>
+		</div>
+		<div class="md:flex  space-y-3 md:space-y-0 md:space-x-4 mt-6">
+			<div class="h-90 bg-gradient-to-r rounded-md from-indigo-600 to-purple-600 p-10">
+				<p class="text-3xl font-thin text-indigo-50 cursor-pointer">Senior Programmer at Wigal</p>
+				<div class="flex items-center mt-4 space-x-4">
+					<img class="w-10 h-10 rounded-full cursor-pointer" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+					<div>
+						<h3 class="text-indigo-50 font-semibold cursor-pointer">Bridget Mensah</h3>
+						<p class="text-indigo-50 text-sm font-thin">0558414704 • Dodowa Estate</p>
+					</div>
+				</div>
+			</div>
+			<div class="h-90 bg-gradient-to-r rounded-md from-indigo-600 to-purple-600 p-10">
+				<p class="text-3xl font-thin text-indigo-50 cursor-pointer">Senior Developer at Wigal</p>
+				<div class="flex items-center mt-4 space-x-4">
+					<img class="w-10 h-10 rounded-full cursor-pointer" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+					<div>
+						<h3 class="text-indigo-50 font-semibold cursor-pointer">Kobbina Amoah</h3>
+						<p class="text-indigo-50 text-sm font-thin">0249657537 • Oyibi</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mx-6 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4 mt-10">
+		<div class="shadow-lg rounded-t-md overflow-hidden ">
+			<div class="">
+				<img class="w-sm" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="" />
+				<div class="p-2 relative">
+					<p class="text-lg mt-6 font-semibold">Basic how to ride your skateboard comfortly</p>
+					<p>53K views • 2 weeks ago</p>
+					<img class="h-12 w-12 rounded-full absolute -top-6 p-0.5 border-2 right-6" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="shadow-lg rounded-t-md overflow-hidden">
+			<div class="">
+				<img class="w-sm" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="" />
+				<div class="p-2 relative">
+					<p class="text-lg mt-6 font-semibold">Basic how to ride your skateboard comfortly</p>
+					<p>53K views • 2 weeks ago</p>
+					<img class="h-12 w-12 rounded-full absolute -top-6 p-0.5 border-2 right-6" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="shadow-lg rounded-t-md overflow-hidden ">
+			<div class="">
+				<img class="w-sm" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="" />
+				<div class="p-2 relative">
+					<p class="text-lg mt-6 font-semibold">Basic how to ride your skateboard comfortly</p>
+					<p>53K views • 2 weeks ago</p>
+					<img class="h-12 w-12 rounded-full absolute -top-6 p-0.5 border-2 right-6" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="shadow-lg rounded-t-md overflow-hidden ">
+			<div class="">
+				<img class="w-sm" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="" />
+				<div class="p-2 relative">
+					<p class="text-lg mt-6 font-semibold">Basic how to ride your skateboard comfortly
+					</p>
+					<p>53K views • 2 weeks ago</p>
+					<img class="h-12 w-12 rounded-full absolute -top-6 p-0.5 border-2 right-6" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<footer class="relative pt-6 pb-2 mt-6">
+  <div class="container mx-auto px-4">
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+          <div class="w-full md:w-6/12 px-4 mx-auto text-center">
+          <div class="text-sm text-slate-500 font-semibold py-1">
+              Tailwind CSS Component from <a href="https://www.creative-tim.com/product/notus-design-system-pro?ref=tailwindcomponents" class="text-slate-700 hover:text-slate-500" target="_blank">Notus PRO Html</a> by <a href="https://www.creative-tim.com" class="text-slate-700 hover:text-slate-500" target="_blank"> Creative Tim</a>.
+          </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+<!-- profile template -->
+
+<!-- component -->
+<div class="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-40">
+  <div class="px-6">
+      <div class="flex flex-wrap justify-center">
+          <div class="w-full flex justify-center">
+              <div class="relative">
+                  <img src="https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/blob/main/build/assets/img/team-2.jpg?raw=true" class="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-[150px]"/>
+              </div>
+          </div>
+          <div class="w-full text-center mt-20">
+              <!-- <div class="flex justify-center lg:pt-4 pt-8 pb-0">
+                  <div class="p-3 text-center">
+                      <span class="text-xl font-bold block uppercase tracking-wide text-slate-700">3,360</span>
+                      <span class="text-sm text-slate-400">Photos</span>
+                  </div> -->
+                  <div class="p-3 text-center">
+                      <!-- <span class="text-xl font-bold block uppercase tracking-wide text-slate-700">2,454</span> -->
+                      <span class="text-sm text-slate-400"><a href="#">Website</a> </span>
+                  </div>
+<!-- 
+                  <div class="p-3 text-center">
+                      <span class="text-xl font-bold block uppercase tracking-wide text-slate-700">564</span>
+                      <span class="text-sm text-slate-400">Fo</span>
+                  </div> -->
+              </div>
+          </div>
+      
+      <div class="text-center mt-2">
+          <h3 class="text-2xl text-slate-700 font-bold leading-normal mb-1">KOBBINA THOMPSON</h3>
+          <div class="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
+              <i class="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>Oyibi,Dodowa
+          </div>
+      </div>
+      <div class="mt-6 py-6 border-t border-slate-200 text-center">
+          <div class="flex flex-wrap justify-center">
+              <div class="w-full px-4">
+                  <p class="font-light leading-relaxed text-slate-600 mb-4">A fullstack web developer at wigal solutions. Very passionate about solving problems!</p>
+                  <a href="javascript:;" class="font-normal text-slate-700 hover:text-slate-400">See projects.</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- profile link -->
+https://lemsas.net/app/AppFiles/dp_thumb/user.svg
+
+<path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+<!-- list group profile view -->
+<!-- component -->
+<div class="mt-32">
+    <div class="px-4 sm:px-8 max-w-5xl m-auto">
+        <h1 class="text-center font-semibold text-sm">List Group</h1>
+        <p class="mt-2 text-center text-xs mb-4 text-gray-500">Same class for each list item</p>
+        <ul class="border border-gray-200 rounded overflow-hidden shadow-md">
+            <li class="px-4 py-2 bg-white hover:bg-sky-100 hover:text-sky-900 border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">First Item</li>
+            <li class="px-4 py-2 bg-white hover:bg-sky-100 hover:text-sky-900 border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">Second Item</li>
+            <li class="px-4 py-2 bg-white hover:bg-sky-100 hover:text-sky-900 border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">Third Item</li>
+            <li class="px-4 py-2 bg-white hover:bg-sky-100 hover:text-sky-900 border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">Another Item</li>
+            <li class="px-4 py-2 bg-white hover:bg-sky-100 hover:text-sky-900 border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">Item for the Nth time</li>
+        </ul>
+        <a href="mailto:jefte_caro@yahoo.com" class="text-xs text-center block mt-4 hover:underline">@me</a>
+    </div>
+</div>
+
+<!-- profile drorpdown starts here -->
+<!-- component -->
+<div class="flex justify-center">
+    <div class="relative inline-block mb-20">
+        <!-- Dropdown toggle button -->
+        <button class="relative z-10 flex items-center p-2 text-sm text-gray-600 bg-white border border-transparent rounded-md focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:text-white dark:bg-gray-800 focus:outline-none">
+            <span class="mx-1">Jane Doe</span>
+            <svg class="w-5 h-5 mx-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z" fill="currentColor"></path>
+            </svg>
+        </button>
+
+        <!-- Dropdown menu -->
+        <div class="absolute right-0 z-20 w-56 py-2 mt-2 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-800">
+            <a href="#" class="flex items-center p-3 -mt-2 text-sm text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                <img class="flex-shrink-0 object-cover mx-1 rounded-full w-9 h-9" src="https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW4lMjBibHVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=face&w=500&q=200" alt="jane avatar">
+                <div class="mx-1">
+                    <h1 class="text-sm font-semibold text-gray-700 dark:text-gray-200">Jane Doe</h1>
+                    <p class="text-sm text-gray-500 dark:text-gray-400">janedoe@exampl.com</p>
+                </div>
+            </a>
+
+            <hr class="border-gray-200 dark:border-gray-700 ">
+            
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                view profile
+            </a>
+            
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                Settings
+            </a>
+
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                Keyboard shortcuts
+            </a>
+
+            <hr class="border-gray-200 dark:border-gray-700 ">
+            
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                Company profile
+            </a>
+
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                Team
+            </a>
+
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                Invite colleagues
+            </a>
+
+            <hr class="border-gray-200 dark:border-gray-700 ">
+            
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                Help
+            </a>
+            <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                Sign Out
+            </a>
+        </div>
+    </div>
+</div>
+<!-- it ends here -->

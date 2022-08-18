@@ -1,0 +1,11 @@
+/vendor/
+/composer.lock
+
+#-------------------------
+# Test Files
+#-------------------------
+tests/coverage*
+.phpunit.result.cache
+
+# Don't save phpunit under version control.
+phpunit

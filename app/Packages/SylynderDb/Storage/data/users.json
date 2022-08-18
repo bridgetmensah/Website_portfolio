@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "full_name": "Bridget Mensah",
+        "email": "bridgetmomomensah@gmail.com",
+        "phone_number": "0594193379",
+        "role": "intern",
+        "sid": "4536",
+        "department": "Engineering",
+        "username": "bridgetmensah",
+        "pass": "1234",
+        "cpass": "1234"
+    }
+,
+    {
+        "id": 2,
+        "full_name": "Bridget Mensah",
+        "email": "bridgetmomomensah@gmail.com",
+        "phone_number": "0594193379",
+        "role": "intern",
+        "sid": "4536",
+        "department": "Engineering",
+        "username": "bridgetmensah",
+        "pass": "1234",
+        "cpass": "1234"
+    }
+,
+    {
+        "id": 3,
+        "full_name": "Bridget Mensah",
+        "email": "bridgetmomomensah@gmail.com",
+        "phone_number": "0594193379",
+        "role": "intern",
+        "sid": "4536",
+        "department": "Engineering",
+        "username": "bridgetmensah",
+        "pass": "1234",
+        "cpass": "1234"
+    }
+]

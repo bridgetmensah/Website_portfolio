@@ -1,0 +1,20 @@
+@partial('partials.head')
+
+<body>
+    <div class="flex antialiased bg-gradient-to-br from-green-100 to-white">
+	
+        @section('components.sidebar')
+    
+        <main class="min-h-screen w-full antialiased bg-gradient-to-br from-green-100 to-white">
+    
+            @section('components.topbar')
+        
+            @section($content)
+        
+            @section('components.footer-one')
+        </main>
+    
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!-- component -->
+<body class="antialiased bg-gradient-to-br from-green-100 to-white">
+    <div class="container px-6 mx-auto">
+      <div
+
+        class="flex flex-col text-center md:text-left md:flex-row h-screen justify-evenly md:items-center">
+        <img src="{{img('images/p3.jpeg')}}" alt="logo" width="60%" height="80%">
+        <!-- <div class="flex flex-col w-full">
+          <div>
+            <svg
+              class="w-20 h-20 mx-auto md:float-left fill-stroke text-gray-800"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+              ></path>
+            </svg>
+          </div>
+          <h1 class="text-5xl text-gray-800 font-bold">Wigal</h1>
+          <p class="w-5/12 mx-auto md:mx-0 text-gray-500 p-1">
+            Control and monitorize your website data from dashboard.
+          </p>
+        </div> -->
+        <div class="w-full md:w-full lg:w-9/12 mx-auto md:mx-0">
+          <div class="bg-white p-10 flex flex-col w-full shadow-xl rounded-xl">
+            <h2 class="text-2xl font-bold text-gray-800 text-left mb-5">
+              Sign in 
+            </h2>
+            <form class="w-full" action="{{url('system.system.body')}}" method="post">
+              <div id="input" class="flex flex-col w-full my-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+                <label for="username" class="text-gray-500 mb-2">Username</label
+                >
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="Please insert your username"
+                  class="appearance-none border-2 border-gray-100 rounded-lg px-4 py-3 placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-green-600 focus:shadow-lg"
+                   required
+                  />
+              </div>
+              <div id="input" class="flex flex-col w-full my-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg>
+                <label for="password" class="text-gray-500 mb-2"></label>
+                  Password</label>
+                
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Please insert your password"
+                  class="appearance-none border-2 border-gray-100 rounded-lg px-4 py-3 placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-green-600 focus:shadow-lg"
+                  required
+                  />
+              </div>
+              <div id="button" class="flex flex-col w-full my-5">
+                <button
+                  type="submit"
+                  class="w-full py-4 bg-green-600 rounded-lg text-green-100"
+                >
+                  <div class="flex flex-row items-center justify-center">
+                    <div class="mr-2">
+                      <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="font-bold">Sign in
+                      
+                    </div>
+                  </div>
+                </button>
+                <div class="flex justify-evenly mt-5">
+                  <a
+                    href="{{url('system.system.body')}}"
+                    class="w-full text-center font-medium text-gray-500"
+                    >Recover password!</a
+                  >
+                  <a
+                    href="{{url('system.system.signup')}}"
+                    class="w-full text-center font-medium text-gray-500"
+                    >Sign up!</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>

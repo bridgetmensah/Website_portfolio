@@ -1,0 +1,40 @@
+{
+    "name": "sylynder/webby",
+    "type": "project",
+    "description": "Webby: An extension of CodeIgniter3 Framework for easy web application development",
+    "keywords": [
+        "framework",
+        "sylynder",
+        "webby",
+        "codeigniter"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Oteng Kwame Appiah-Nti",
+        "email": "developerkwame@gmail.com"
+    }],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "sylynder/codeigniter": "^0.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Base\\": "engine/Core/core"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php webby set --env",
+            "@php webby key:generate"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

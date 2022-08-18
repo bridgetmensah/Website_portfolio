@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "owner_name": "Kwame Oteng",
+        "card_number": "324343345455454545454545454",
+        "expiry": "rtrtrtrtr",
+        "cvc": "retreere",
+        "created_at": "2022-07-20 14:50:13"
+    }
+,
+    {
+        "id": 2,
+        "owner_name": "Kwabena Otoo",
+        "card_number": "234533345334e",
+        "expiry": "07\/25",
+        "cvc": "123",
+        "created_at": "2022-07-20 14:51:49"
+    }
+,
+    {
+        "id": 3,
+        "owner_name": "Bridget",
+        "card_number": "34535934894398",
+        "expiry": "438484",
+        "cvc": "453",
+        "created_at": "2022-07-20 15:04:10"
+    }
+,
+    {
+        "id": 4,
+        "owner_name": "Mavis",
+        "card_number": "3737373",
+        "expiry": "73\/88",
+        "cvc": "6363",
+        "created_at": "2022-07-20 15:08:21"
+    }
+,
+    {
+        "id": 5,
+        "owner_name": "",
+        "card_number": "",
+        "expiry": "",
+        "cvc": "",
+        "created_at": "2022-07-20 15:09:22"
+    }
+,
+    {
+        "id": 6,
+        "owner_name": "",
+        "card_number": "",
+        "expiry": "",
+        "cvc": "",
+        "created_at": "2022-07-20 15:09:33"
+    }
+,
+    {
+        "id": 7,
+        "owner_name": "",
+        "card_number": "",
+        "expiry": "",
+        "cvc": "",
+        "created_at": "2022-07-20 15:09:38"
+    }
+]

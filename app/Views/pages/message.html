@@ -1,0 +1,114 @@
+<!-- component -->
+<div class="w-full antialiased bg-gradient-to-br from-green-100 to-white h-screen">
+    <div class="bg-white-300 from-blue-800 to-blue-600 h-96"></div>
+    <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12">
+        <div class="bg-white w-full shadow rounded p-8 sm:p-12 -mt-72">
+            <p class="text-3xl font-bold leading-7 text-center text-dark">SEND MESSAGE</p>
+            <form action="" method="post">
+                <div class="md:flex items-center mt-12">
+
+                    <div class="w-full md:w-1/2 flex flex-col">
+                        <label class="font-semibold leading-none text-black">Recipient</label>
+                        <!-- <label for="cars">Choose a car:</label> -->
+                        <select name="cars" id="cars" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-100 rounded">
+                          <option value="volvo">All Contacts</option>
+                          <option value="saab">Dave</option>
+                          <option value="saab">Vida</option>
+                          <option value="saab">Emmanuel</option>
+                          <option value="opel">Nii</option>
+                          <option value="audi">Abdul</option>
+                          <option value="audi">Andrew</option>
+                          <option value="audi">Dolph</option>
+                          <option value="audi">Dede</option>
+                          <option value="audi">Annette</option>
+                          <option value="audi">Theophilus</option>
+                          <option value="audi">Henry</option>
+                          <option value="audi">Aboki</option>
+                          <option value="audi">Eva</option>
+                          <option value="audi">Simon</option>
+                          <option value="audi">Lawrence</option>
+                          <option value="audi">Stephen</option>
+                          <option value="audi">Michael</option>
+                          <option value="audi">Magaret</option>
+                          <option value="audi">Garvin</option>
+                        </select>
+                        <!-- <input type="text" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded" /> -->
+                    </div>
+                    <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
+                        <label class="font-semibold leading-none text-black"> Receiver's Department</label>
+                        <!-- <label for="cars">Choose a car:</label> -->
+                        <!-- <select name="sender" id="sender" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-100 rounded"> -->
+                          <!-- <option value="volvo">Akon</option>
+                          <option value="saab">Mavis</option>
+                          <option value="saab">Nyarkomah</option>
+                          <option value="saab">Bridget</option>
+                          <option value="opel">Kobbina</option>
+                          <option value="audi">Jennifer</option> -->
+                       
+                        <!-- <input type="checkbox" id="vehicle1" name="Department1" value="Bike">
+                        <label for="vehicle1"> Customer Service</label>
+
+                        <input type="checkbox" id="vehicle2" name="Department2" value="Car">
+                        <label for="vehicle2"> Engineering</label>
+
+                        <input type="checkbox" id="vehicle3" name="Department3" value="Boat">
+                        <label for="vehicle3"> Finance</label>
+
+                        <input type="checkbox" id="vehicle1" name="Department4" value="Bike">
+                        <label for="vehicle1"> IT</label>
+
+                        <input type="checkbox" id="vehicle2" name="Department5" value="Car">
+                        <label for="vehicle2"> Sales</label>
+
+                        <input type="checkbox" id="vehicle3" name="Department6" value="Boat">
+                        <label for="vehicle3"> Marketing</label>
+
+                        <input type="checkbox" id="vehicle3" name="Department6" value="Boat">
+                        <label for="vehicle3"> All Departments</label> -->
+
+
+
+<select>
+ <option><input type="checkbox"></option>
+</select>
+                        <!-- <select>
+                            <option><input type="checkbox"></option>
+                           </select> -->
+                    <!-- </select> -->
+                    </div>
+                </div>
+
+                <div class="md:flex items-center mt-8">
+                    <div class="w-full flex flex-col">
+                        <label class="font-semibold leading-none text-black">Subject</label>
+                        <input type="text" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-100 rounded" required/>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="w-full flex flex-col mt-8">
+                        <label class="font-semibold leading-none text-black">Message</label>
+                        <textarea type="text" class="h-40 text-base leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border-0 rounded" required></textarea>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center w-full">
+                    
+                    </button>&nbsp;&nbsp;
+                    
+                    <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                        Send message
+                    </button>
+                    
+                    &nbsp;&nbsp;
+                    
+                    <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                        <a href="{{url('system.system.message')}}">Cancel</a>
+                    </button>
+                    
+                    <!-- <img src="/assets/images/p1.png" alt="qq"> -->
+                <!-- <img src="{{img('images/p1.png')}}" alt="qq"> -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

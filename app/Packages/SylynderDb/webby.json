@@ -1,0 +1,26 @@
+{
+    "name": "webby/sylynderDb",
+    "type": "package",
+    "description": "SylynderDb: A simple JSON file database to allow easy data persistence",
+    "keywords": [
+        "webby",
+        "json",
+        "database",
+        "sylynder"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kwame Oteng Appiah-Nti",
+            "email": "developerkwame@gmail.com"
+        }
+    ],
+    "depencies": [
+        {
+            "sylynder/webby": "v1.2.0"
+        }
+    ],
+    "installation-url": "https://github.com/sylynder/sylynder-db/archive/refs/heads/master.zip",
+    "created_at": "2022-04-24 10:40 AM",
+    "update_at": "2022-04-24 8:26 PM"
+}

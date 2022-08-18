@@ -1,0 +1,42 @@
+#!/usr/bin/env php
+<?php
+
+/*
+ * --------------------------------------------------------------------
+ * Webby command-line tools
+ * --------------------------------------------------------------------
+ * The main entry point into the CLI system and allows you to run
+ * commands and perform maintenance on your application.
+ *
+ * Because Webby can handle CLI requests as just another web request
+ * this implementation mainly acts as a passthru to the framework itself.
+ */
+
+// Load composer
+require_once __DIR__ . '/vendor/autoload.php';
+
+// Define Console Application Version
+define('WEBBY_CLI_VERSION', '1.3.0');
+
+// Define Webby Rootpath
+define('WEBBY_ROOTPATH', __DIR__);
+
+// Define Console Application Environment
+// Leave this untouched since console depends on it
+define('ENVIRONMENT', 'development'); 
+
+// Use Console Class
+use Base\Console\Console;
+
+// Grab argv values
+$args = $_SERVER['argv'];
+
+/*
+* --------------------------------------------------------------------
+* Run Webby Cli Application
+* --------------------------------------------------------------------
+* 
+* All commands go through Console::run()
+*
+*/
+Console::run($args);
