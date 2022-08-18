@@ -41,6 +41,6 @@ use Base\Route\Route;
 | Route::get('route-pattern', 'module/controller/method/segment1/segment2/segment3');
 */
 
-$route['default_controller'] = 'system';
+$route['default_controller'] = 'portfolio';
 $route['404_override'] = 'app/error404';
 $route['translate_uri_dashes'] = false;
