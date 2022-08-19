@@ -1,0 +1,30 @@
+
+    <!-- <div x-data="{ open: false }" class="bg-gray-600 shadow-gray-800 px-2 py-2 ml-6 rounded w-40">
+        <button @click="open = ! open" class="text-gray-200">
+        Dropdown Button
+        </button>
+    </div>
+    <div x-show="open" @click.outside="open = false" class=" w-40  ml-6 rounded bg-blue-300 text-gray-600">
+        <ul class="list-none">
+           <li class="text-gray-800  text-center p-2 hover:text-gray-400">home</li>
+           <li class=" text-gray-800 text-center p-2">class</li>
+           <li class=" text-gray-800 text-center p-2">about</li>
+        </ul>
+    </div>  -->
+
+
+   <div x-data="{ open: false }" class="relative">
+    <div   class="bg-blue-600 shadow-gray-800 px-2 py-2 ml-6 rounded w-40">
+        <button @click="open = ! open" class="text-red-500 ">Toggle</button>
+     
+        
+    </div> 
+    <div x-show="open" @click.outside="open = false" class="max-w-43 w-40 absolute left-6 rounded bg-blue-300 text-gray-600" >
+        <ul class="list-none">
+            <li class="text-gray-800  text-center p-2 hover:text-gray-400">home</li>
+            <li class=" text-gray-800 text-center p-2">class</li>
+            <li class=" text-gray-800 text-center p-2">about</li>
+         </ul>
+    </div>
+   </div>
+    
